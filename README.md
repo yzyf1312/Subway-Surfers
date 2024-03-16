@@ -1,2 +1,2 @@
 # Subway-Surfers
-Subway Surfers by Electron
+Subway Surfers on Web by Electron
