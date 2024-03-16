@@ -1,0 +1,29 @@
+{
+  "name": "subway-surfers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "build": {
+    "appId": "com.subway.web.yf",
+    "win": {
+      "target": [
+        "nsis",
+        "zip"
+      ],
+      "icon": "./subway.ico"
+    },
+    "artifactName": "${productName}-Windows-${version}-Setup.${ext}"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "electron-builder --win --x64"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.4",
+    "electron-builder": "^24.13.3"
+  }
+}
